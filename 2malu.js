@@ -1,5 +1,5 @@
 $(function (){
-//测试
+//测试......
 
 //经营产品切换
 	$('#bus_pro .pro_show span').click(function (){
