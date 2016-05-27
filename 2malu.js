@@ -2,9 +2,7 @@ $(function (){
 //测试......
 //.....
 //.....
-//123
-//456
-//789
+
 //经营产品切换
 	$('#bus_pro .pro_show span').click(function (){
 			$('#bus_pro .pro_show span').removeClass('pro_r').eq($(this).index()).addClass('pro_r');
