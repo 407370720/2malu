@@ -1,0 +1,93 @@
+
+@charset "utf-8"; 
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre, 
+dl, dt, dd, ul, ol, li, th, td, div, span, img, 
+fieldset, lengend, button, input, select, textarea{margin: 0;padding: 0;} 
+
+
+body, button, input, select, textarea { 
+font: 12px/18px Arial, Verdana, Microsoft YaHei; 
+} 
+img{border:0;vertical-align:bottom;}
+a { text-decoration: none; color:#3f4244;} 
+a:hover { text-decoration:none; } 
+ul,ol {list-style: none;} 
+
+
+#head{ position:relative; width:920px; margin:0 auto; height:81px; background-color:#ffffff;}
+#head li{ float:left; width:116px;}
+#head ul{ float:right; text-align:center;}
+#head img{ width:74px; height:42px; position:absolute; left:41px; top:17px;}
+#head p{ font-size:19px; line-height:23px; letter-spacing:1px;  }
+#head span{ font-size:8px; line-height:12px; display:inline-block;  padding-bottom:12px;-webkit-transform: scale(0.75); }
+#head a{ display:block; }
+#head a:hover{border-bottom:2px solid #18e8d9; color:#18e8d9;}
+.head_1 {border-bottom:2px solid #18e8d9; color:#18e8d9;}
+.head_2 {border-bottom:2px solid #666; color:#666;}
+#head .head_r{ position:absolute; top:24px; right:34px;}
+
+
+#con{ background: url(img/con_bg.jpg) no-repeat;background-position: center; height:560px; overflow:hidden;}
+
+
+#list{ position:relative; top:92px; height:360px;}
+#list ul{ width:920px; margin:0 auto; text-align: center;}
+#list ul li{ float:left; display:inline-blockl; width:230px;}
+#list .list_2{ font-size:19px; color:#3f4244; letter-spacing:1px;}
+#list .list_3{ width:56px; height:2px; background-color:#18e8d9; margin:16px auto;}
+#list ul li img{ width:60px; height:60px; padding-bottom:10px;}
+#list .list_4{ font-size:12px;color:#b7b7b7;letter-spacing:1.5px;}
+
+#bus_phi .bus{}
+#bus_phi{ background-color:#f7f7f7; height:459px;}
+#bus_phi .bus{ width:920px; margin:0 auto; position:relative;top:100px;}
+#bus_phi .bus img{  width:297; height:359px;  padding-left:74px; }
+#bus_phi .bus_text{ position:absolute; top:18px; left:470px; text-align:left;}
+#bus_phi .bus_1{ font-size:28px; color:#000000;line-height:30px;}
+#bus_phi .bus_2{ font-size:8px; color:#000000; line-height:28px;}
+#bus_phi .bus_3{ width:136px; height:2px; background-color:#18e8d9;}
+#bus_phi .bus_4{ font-size:12px; color:#929ba0; line-height:20px; letter-spacing:0.5px;}
+
+
+
+#bus_pro{ background-color:#252726; text-align:center; height:670px; }
+#bus_pro p{ width:920px; margin:0 auto;position:relative;}
+#bus_pro .pro_text{ padding-top:72px; padding-bottom:72px;}
+#bus_pro .pro_1{ font-size:28px;  color:#feffff;line-height:30px; }
+#bus_pro .pro_2{font-size:8px;  color:#ffffff; line-height:34px; }
+#bus_pro .pro_3{ width:136px; height:2px; background-color:#18e8d9; margin:0 auto 42px;display:inline-block;}
+#bus_pro .pro_4{font-size:12px;  color:#ffffff; }
+#bus_pro .pro_show span{font-size:12px; line-height:40px;color:#ffffff; display:inline-block; width:388px; height:37px; }
+
+
+
+#bus_pro .pro_img{ margin:0 auto; position:relative; width:920px; }
+#bus_pro .pro_img ul{ position: relative; left:-400px; top:20px; width:2000px; }
+#bus_pro .pro_01{ display:none;}
+#bus_pro .pro_img li{ float:left; padding:20px 3px; width:158px; height:158px; display:block;}
+.pro_show span{border:1px solid #a7acac; }
+
+
+
+#bus_pro .pro_l{ border:1px solid #a7acac; }
+#bus_pro .pro_r{ border:1px solid #18e8d9; }
+.pro_b{width:14px; height:14px; position:absolute; top:34px;right:260px;}
+#bus_pro a{display:inline-block; width:30px; height:30px; }
+#bus_pro .prve{ background:url(img/but_prv.jpg) no-repeat; float:left; margin-left:45px; position:absolute;top:220px; left:100px;}
+#bus_pro .next{ background:url(img/but_next.jpg) no-repeat; float:right;margin-right:45px;position:absolute;top:220px; right:100px;}
+
+
+#our_str{ text-align:center; padding-top:116px;}
+#our_str p{ width:920px; margin:0 auto;}
+#our_str .our_1{ font-size:28px; line-height:30px; color:#3f4244;}
+#our_str .our_2{ font-size:8px; color:#3f4244; line-height:36px;}
+#our_str .our_3{ display:inline-block; width:136px; height:2px; background-color:#18e8d9; margin:5px auto 25px;}
+#our_str .our_4{ font-size:12px; color:#929ba0; line-height:20px; }
+#our_str .our_img img{ margin-right:2px; margin-bottom:4px;  }
+#our_str .our_img{margin-top:45px; margin-bottom:120px;}
+
+#foot{ background-color:#252726; height:179px; position:relative;}
+#foot p{ width:920px; margin:0 auto;  color:#ffffff;font-size:11px;text-align:center; padding-top:97px; }
+#foot span{padding-right:22px; }
+#foot .span_1{ display:inline-block; line-height:12px;}
+
